@@ -1,4 +1,4 @@
-# img2str
+# img2info
 tesseract 테스트 리포지터리입니다. 아직까지 좋은 결과가 나오진 않습니다.
 단순한 이미지에는 사용할 수 있으며, 좋은 결과를 위해서는 
 tesseract4를 기다려봐야할듯합니다.
@@ -25,9 +25,10 @@ openGL image
 
 
 
-)
+1’
 
 Marker <none> Timecode 00:00:00:17 Frame 017 Camera cam01 Lens 24.00 Scene Scene
+2018/10/15 21:07:47 https://github.com/lazypic/mamma
 ```
 #### Gosseract Install
 ```
@@ -38,3 +39,5 @@ $ go get -t github.com/otiai10/gosseract
 - https://github.com/tesseract-ocr/tesseract
 - https://github.com/tesseract-ocr/tesseract/wiki
 - https://github.com/otiai10/gosseract
+- qrcode encoding : https://github.com/skip2/go-qrcode
+- qrcode decoding : https://github.com/tuotoo/qrcode

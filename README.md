@@ -16,6 +16,7 @@ $ tesseract blender_opengl_test.png out
 
 - output
 ```
+Text :
 File /Users/kimhanwoong/Desktop/mammaiopenngest7v004.blend Strip <none>
 Date 2018/10/15 19:48:59
 RenderTime 00:25.21
@@ -28,6 +29,7 @@ openGL image
 1’
 
 Marker <none> Timecode 00:00:00:17 Frame 017 Camera cam01 Lens 24.00 Scene Scene
+QRcode :
 2018/10/15 21:07:47 https://github.com/lazypic/mamma
 ```
 #### Gosseract Install

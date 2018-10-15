@@ -35,12 +35,12 @@ Marker <none> Timecode 00:00:00:17 Frame 017 Camera cam01 Lens 24.00 Scene Scene
 2018/10/15 21:07:47 https://github.com/lazypic/mamma
 ```
 
-#### Gosseract Install
+## Gosseract Install
 ```
 $ go get -t github.com/otiai10/gosseract
 ```
 
-#### Qrcode 생성
+## Qrcode 생성
 - qrcode encoding : https://github.com/skip2/go-qrcode
 - QR code생성은 아래 명령어를 사용했다.
 ```bash
@@ -48,7 +48,7 @@ $ qrcode "https://github.com/lazypic/mamma" > out.png
 ```
 
 
-#### Reference
+## Reference
 - https://github.com/tesseract-ocr/tesseract
 - https://github.com/tesseract-ocr/tesseract/wiki
 - https://github.com/otiai10/gosseract

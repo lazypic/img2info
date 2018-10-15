@@ -12,7 +12,7 @@ $ brew install tesseract
 $ tesseract blender_opengl_test.png out
 ```
 - input
-![blender_opengl_test](https://user-images.githubusercontent.com/1149996/46948833-50080f00-d0ba-11e8-96b7-142243740586.png)
+- ![blender_opengl_test](https://user-images.githubusercontent.com/1149996/46950180-de7e8f80-d0be-11e8-9aff-fc23ec42193e.png)
 
 - output
 ```

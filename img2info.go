@@ -11,6 +11,7 @@ import (
 func main() {
 	testfile := "blender_opengl_test.png"
 	// text
+	fmt.Println("Text :")
 	client := gosseract.NewClient()
 	defer client.Close()
 	client.SetImage(testfile)
@@ -21,6 +22,7 @@ func main() {
 	}
 	fmt.Println(text)
 	// qrcode
+	fmt.Println("QRcode :")
 	fi, err := os.Open(testfile)
 	if err != nil {
 		log.Println(err.Error())

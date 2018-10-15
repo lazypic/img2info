@@ -9,17 +9,19 @@ import (
 )
 
 func main() {
+	testfile := "blender_opengl_test.png"
 	// text
 	client := gosseract.NewClient()
 	defer client.Close()
-	client.SetImage("blender_opengl_test.png")
+	client.SetImage(testfile)
 	text, err := client.Text()
 	if err != nil {
-		log.Fatal(err)
+		log.Println(err.Error())
+		return
 	}
 	fmt.Println(text)
-	//
-	fi, err := os.Open("blender_opengl_test.png")
+	// qrcode
+	fi, err := os.Open(testfile)
 	if err != nil {
 		log.Println(err.Error())
 		return

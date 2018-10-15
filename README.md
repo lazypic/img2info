@@ -29,9 +29,7 @@ openGL image
 Marker <none> Timecode 00:00:00:17 Frame 017 Camera cam01 Lens 24.00 Scene Scene
 ```
 #### Gosseract Install
-- 실행하기 위해서는 tesseract가 설치되어 있어야 합니다.
 ```
-$ brew install tesseract
 $ go get -t github.com/otiai10/gosseract
 ```
 
